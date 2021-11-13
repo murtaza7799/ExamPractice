@@ -1,0 +1,8 @@
+{
+    "capabilities": {
+      "virtualWorkspaces": {
+        "supported": false,
+        "description": "Debugging is not possible in virtual workspaces."
+      }
+    }
+  }
