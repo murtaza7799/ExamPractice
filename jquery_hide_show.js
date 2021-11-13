@@ -1,12 +1,12 @@
 $(function() {
 
-    var paragraph = $("<p> This is a paragraph</p>").prop("id", "p");
+    var paragraph = $("<p> This is a paragraph</p>").prop("id", "p").addClass("displayNone");
     var btnShow = $("<button>Show</button>").prop("id", "show");
 
-    $("#container").append(paragraph, btnShow);
+    $(".container").append(paragraph, btnShow);
     $("#show").click(function() {
         //alert("Show");
-        $("#p").toggle();
+        $("#p").toggle().fadeOut();
 
     })
 
